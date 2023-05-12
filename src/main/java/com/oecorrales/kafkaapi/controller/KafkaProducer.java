@@ -14,7 +14,7 @@ public class KafkaProducer {
     @Autowired
     KafkaSender kafkaSender;
 
-    @Value("${FIRST_TOPIC}")
+    @Value("${kafka.first.topic}")
     String firstTopic;
 
     @PostMapping
